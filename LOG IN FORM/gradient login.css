@@ -1,0 +1,160 @@
+body{
+  margin:  100px auto;
+ background:linear-gradient(to bottom left,rgb(149, 16, 179),rgb(194, 29, 219)30%,rgb(15, 200, 242) );
+ height: 100vh;
+ width: 100%;
+ 
+}
+ .main{
+  margin: auto;
+  width: 30%;
+  border: 0solid lightgray;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+ box-shadow:4px 4px 8px 0 rgba(0, 0, 0, 0.2),4px 6px 20px 0 rgba(0, 0, 0, 0.19);
+ animation: dng 3s linear 0s infinite ease-in-out;
+
+}
+
+
+h1{
+  text-align:center;
+  font-size: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  opacity: 0.8;
+   animation: dng 3s linear 0s infinite ease-in-out;
+   transition: border 3s ease-in-out;
+}
+div.username,div.password,div.button{
+  text-align: center;
+}
+h6{
+  
+ margin-right: 55px;
+
+  font-size: 1.1rem;
+  opacity: .6;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: right;
+ 
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+h6:hover{
+  cursor: pointer;
+ color: red;
+}
+h6:active{
+  cursor: pointer;
+ color: black;
+}
+h6:visited{
+  cursor: pointer;
+ color: blueviolet;
+}
+input[type=text] {
+  width: 80%;
+  margin:20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 3px solid lightgray;
+  opacity: .6;
+  padding:30px 20px 20px 20px;
+font-size: 2rem;
+}
+#username{
+ text-align: left;
+ font-size: 1em;
+}
+ input[type=password] {
+ width: 80%;
+  margin:20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 3px solid lightgray;
+  opacity: .6;
+  padding:30px 20px 20px 20px;
+font-size: 3rem;
+}
+#password{
+ text-align:left;
+ font-size: 1em;
+}
+button[type=button]{
+ box-sizing: border-box;
+  width: 80%;
+  padding:20px;
+  font-size:1.5rem;
+  border:none;
+  border-radius: 50px;
+  background:linear-gradient(to  left,rgb(149, 16, 179),rgb(194, 29, 219)30%,rgb(15, 200, 242) );
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   color: white;
+}
+button[type=button]:hover{
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+h5.signup{
+  text-align: center;
+  font-size: 1.2rem;
+  font-family:Arial, Helvetica, sans-serif;
+  opacity:0.8;
+  font-weight: 700;
+}
+img{
+ 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding:5px;
+ 
+}
+img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.icon{
+  text-align: center;
+}
+img.fb
+{
+  height: 45px;
+  width: 45px;
+  padding:3px;
+}
+
+/* @keyframes dng {
+  0%{
+    border-color: red;
+    transform: translate(0px,0px);
+  }
+  20%{
+    border-color: blue;
+      transform: translate(20px,20px);
+
+  }
+  40%{
+    border-color: blue;
+     transform: translate(40px,40px);
+  }
+  6%{
+    border-color: red;
+      transform: translate(60px,60px);
+  }
+  80%{
+    border-color: red;
+     transform: translate(80px,80px);
+  }
+  100%{
+    border-color: red;
+      transform: translate(100px,100px);
+  }
+
+} */
